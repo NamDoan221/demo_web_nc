@@ -1,0 +1,6 @@
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.dll
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\bin\Debug\MOONLY.Operational.pdb
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.csprojAssemblyReference.cache
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.csproj.CoreCompileInputs.cache
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.dll
+D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Operational\obj\Debug\MOONLY.Operational.pdb
