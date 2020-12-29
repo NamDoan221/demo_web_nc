@@ -9,3 +9,14 @@ D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessL
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CopyComplete
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.BusinessLogic.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.Common.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\bin\Debug\MOONLY.DataAccess.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csprojAssemblyReference.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CoreCompileInputs.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.csproj.CopyComplete
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.BusinessLogic\obj\Debug\MOONLY.BusinessLogic.pdb

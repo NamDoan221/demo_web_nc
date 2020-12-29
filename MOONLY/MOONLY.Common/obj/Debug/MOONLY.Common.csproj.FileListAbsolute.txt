@@ -7,3 +7,12 @@ D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.Co
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CopyComplete
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.dll
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csprojAssemblyReference.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CoreCompileInputs.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CopyComplete
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.pdb

@@ -9,3 +9,14 @@ D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.c
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CopyComplete
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.dll
 D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.DataAccess.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.DataAccess.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Common.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Operational.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Common.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\bin\Debug\MOONLY.Operational.pdb
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csprojAssemblyReference.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CoreCompileInputs.cache
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.csproj.CopyComplete
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.dll
+F:\Git\demo_web_nc\MOONLY\MOONLY.DataAccess\obj\Debug\MOONLY.DataAccess.pdb
