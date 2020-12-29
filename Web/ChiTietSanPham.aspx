@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/mainphu.master" AutoEventWireup="true" CodeFile="ChiTietSanPham.aspx.cs" Inherits="ChiTietSanPham" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<asp:DataList ID="dtlChiTietSanPham" runat="server">
+    <asp:DataList ID="dtlChiTietSanPham" runat="server">
         <ItemTemplate>
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
@@ -16,9 +16,9 @@
                         <asp:Label ID="lblGiaSanpham" runat="server" Text='<%# Eval("GiaSanPham", "{0:0,000,000} VND") %>' ForeColor="#990000"></asp:Label></td>
                 </tr>
                 <tr>
-                    <td style="width: 350px; height: 44px;" rowspan="2">
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "GioiThieuSanPham.aspx" %>' ImageUrl="~/images/button_back.jpg" Width="80px">Trở về</asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink2" runat="server" Width="80px" ImageUrl="~/images/button_buy.gif" NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ hàng</asp:HyperLink></td>
+                    <td style="width: 245px; height: 35px; display: flex; justify-content:center" rowspan="2">
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "GioiThieuSanPham.aspx" %>' CssClass="btn btn-outline-danger" >Trở về</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server"  CssClass="btn btn-primary" NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ hàng</asp:HyperLink></td>
                 </tr>
                 <tr>
                 </tr>

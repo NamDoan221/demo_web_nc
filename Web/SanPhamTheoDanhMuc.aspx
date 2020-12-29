@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/mainchin.master" AutoEventWireup="true" CodeFile="SanPhamTheoDanhMuc.aspx.cs" Inherits="SanPhamTheoDanhMuc" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     <asp:DataList ID="dtlSanPhamDM" runat="server" RepeatColumns="3" Width="745px" CaptionAlign="Top" HorizontalAlign="Center">
+     <asp:DataList ID="dtlSanPhamDM" runat="server" RepeatColumns="3" Width="987px" CaptionAlign="Top" HorizontalAlign="Center">
         <ItemTemplate>
             <asp:Panel ID="Panel1" runat="server" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"
                 Width="230px" Height="250px" CssClass="mb-1">

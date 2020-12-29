@@ -2,9 +2,9 @@
 
 <%@ Register Assembly="CollectionPager" Namespace="SiteUtils" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<asp:TextBox ID="textSearch" runat="server" CssClass="txtSearch" Height="25px"></asp:TextBox><asp:ImageButton ID="ImageButtonTim" runat="server" ImageUrl="~/images/tim1.jpg" OnClick="ImageButtonTim_Click" Height="26px" ImageAlign="AbsMiddle" /><br />
+    <asp:TextBox ID="textSearch" runat="server" CssClass="form-control mr-sm-2 w-75 float-left ml-5" Height="25px"></asp:TextBox><asp:ImageButton ID="ImageButtonTim" runat="server" ImageUrl="~/images/tim1.jpg" OnClick="ImageButtonTim_Click" Height="26px" ImageAlign="AbsMiddle" /><br />
     <p><asp:Label ID="lblketqua" runat="server" Font-Bold="True" ForeColor="#400000"></asp:Label></p>
-    <div><asp:DataList ID="dtlSanPham" runat="server" RepeatColumns="3" Width="745px" CaptionAlign="Top" HorizontalAlign="Center">
+    <div><asp:DataList ID="dtlSanPham" runat="server" RepeatColumns="3" Width="989px" CaptionAlign="Top" HorizontalAlign="Center">
         <ItemTemplate>
             <asp:Panel ID="Panel1" runat="server" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"
                 Width="230px" Height="250px" CssClass="mb-1">
