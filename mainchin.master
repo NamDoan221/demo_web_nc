@@ -32,15 +32,8 @@
 </head>
 <body style="background: #fff;">
     <form id="form1" runat="server">
-  
-
-<<<<<<< HEAD
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><img src="https://cdn.jiohealth.com/pharmacy/product/asset/images/navJioLogo@3x.png" alt="Alternate Text" width="70px" /></a>
-=======
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Nhà thuốc</a>
->>>>>>> origin/manhnk
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -74,6 +67,7 @@
     </ul>
   </div>
 </nav>
+        <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -97,13 +91,8 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
             </a>
-<<<<<<< HEAD
             </div>
-        </div>
-          
-=======
-        </div>
->>>>>>> origin/manhnk
+            </div>
  
   <div class="w-75 mx-auto mt-5">
      <div class="w-100">

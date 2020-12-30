@@ -51,10 +51,11 @@
           Sản phẩm
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Thuốc đặc trị</a>
-          <a class="dropdown-item" href="#">Thuốc chỉ định</a>
-          <a class="dropdown-item" href="#">Thực phẩm chức năng</a>
-            <a class="dropdown-item" href="#">Dụng cụ y tế</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=1">Thuốc đặc trị</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=2">Thuốc chỉ định</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=3">Thực phẩm chức năng</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=4">Dụng cụ y tế</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=5">Mẹ và bé</a>
         </div>
       </li>
       <li class="nav-item">
@@ -82,8 +83,7 @@
                 </div>
                   <div class="menudoc">
            	  		<div class="thanhmenu" style="background: orangered;">
-                    	<h4>
-                            BÁC SỸ ĐANG TRỰC</h4>
+                    	<h4>TOP 10 SẢN PHẨM</h4>
                     </div>
                     <div class="tintuc">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding:5px;">
