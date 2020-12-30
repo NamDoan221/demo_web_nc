@@ -2,12 +2,15 @@
 
 <%@ Register Assembly="CollectionPager" Namespace="SiteUtils" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:TextBox ID="textSearch" runat="server" CssClass="form-control mr-sm-2 w-75 float-left ml-5" Height="25px"></asp:TextBox><asp:ImageButton ID="ImageButtonTim" runat="server" ImageUrl="~/images/tim1.jpg" OnClick="ImageButtonTim_Click" Height="26px" ImageAlign="AbsMiddle" /><br />
-    <p><asp:Label ID="lblketqua" runat="server" Font-Bold="True" ForeColor="#400000"></asp:Label></p>
+    <div class="d-flex">
+    <asp:TextBox ID="textSearch" runat="server" CssClass="form-control mr-sm-2 w-75 float-left ml-5"></asp:TextBox>
+    <asp:Button ID="ImageButtonTim" runat="server" OnClick="ImageButtonTim_Click" CssClass="btn-danger p-1 rounded" Text="Tìm kiếm"/>
+    </div>
+    <p class="d-inline-block mt-2"><asp:Label ID="lblketqua" runat="server" Font-Bold="True" ForeColor="#400000"></asp:Label></p>
     <div><asp:DataList ID="dtlSanPham" runat="server" RepeatColumns="3" Width="989px" CaptionAlign="Top" HorizontalAlign="Center">
         <ItemTemplate>
             <asp:Panel ID="Panel1" runat="server" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"
-                Width="230px" Height="250px" CssClass="mb-1">
+                Width="230px" Height="250px" CssClass="mb-1 rounded" style="box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.2);">
             <table cellpadding="0" cellspacing="0" style="width:230px">
                 <tr>
                     <td style="width: 175px; height: 125px; text-align: center;" align="center">

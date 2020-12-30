@@ -4,7 +4,7 @@
         <ItemTemplate>
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td rowspan="4" style="width: 550px">
+                    <td rowspan="4" style="width: 550px;box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2);" class="rounded">
                         <asp:Image ID="Image1" runat="server" Height="225px" ImageUrl='<%# Eval("IdHinhSanPham","HienThiHinhSanPham.ashx?IdHinhSanPham={0}") %>' Width="175px" /></td>
                     <td style="width: 350px">
                         <asp:Label ID="lblTenSanpham" runat="server" Text='<%# Eval("TenSanPham") %>' Font-Bold="True" ForeColor="#330000"></asp:Label></td>
@@ -24,7 +24,7 @@
                 </tr>
                 <tr>
                     <td align="center" colspan="2" rowspan="1">
-                        <span style="color: #660000">THÔNG TIN CHI TIẾT</span></td>
+                        <span style="color: #660000" class="d-block mt-3">THÔNG TIN CHI TIẾT</span></td>
                 </tr>
                 <tr>
                     <td colspan="2" rowspan="1" align="left">

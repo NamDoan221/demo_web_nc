@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 <asp:Label ID="lblThongBao" runat="server" Text=""></asp:Label><br />
-<asp:GridView ID="gridgiohang" runat="server" AutoGenerateColumns="False" DataKeyNames="IDgiohang" OnRowDataBound="gridgiohang_RowDataBound" Width="530px">
+<asp:GridView ID="gridgiohang" runat="server" AutoGenerateColumns="False" DataKeyNames="IDgiohang" OnRowDataBound="gridgiohang_RowDataBound" Width="800px">
     
         <Columns>
             <asp:TemplateField HeaderText="X&#243;a">
@@ -51,8 +51,8 @@
     <asp:Label ID="Label1" runat="server" Text="Tổng tiền:" Font-Bold="True" ForeColor="#330000"></asp:Label>
     <asp:Label ID="lblTotal" runat="server" ForeColor="orangered"></asp:Label><br />
     <br />
-    <asp:ImageButton ID="ImageButtontieptucmuahang" runat="server" ImageUrl="~/images/button_tiepmua.jpg" OnClick="ImageButtontieptucmuahang_Click" />
-    <asp:ImageButton ID="ImageButtoncapnhatthaydoi" runat="server" ImageUrl="~/images/button_capnhat.jpg" OnClick="ImageButtoncapnhatthaydoi_Click" />
-    <asp:ImageButton ID="ImageButtonXacnhanthanhtoan" runat="server" ImageUrl="~/images/button_thanhtoan.jpg" OnClick="ImageButtonXacnhanthanhtoan_Click" />
+    <asp:Button ID="ImageButtontieptucmuahang" runat="server" OnClick="ImageButtontieptucmuahang_Click" CssClass="btn-danger p-1 rounded" Text="Tiếp tục mua hàng"/>
+    <asp:Button ID="ImageButtoncapnhatthaydoi" runat="server" OnClick="ImageButtoncapnhatthaydoi_Click" CssClass="btn-danger p-1 rounded" Text="Cập nhật"/>
+    <asp:Button ID="ImageButtonXacnhanthanhtoan" runat="server" OnClick="ImageButtonXacnhanthanhtoan_Click" CssClass="btn-danger p-1 rounded" Text="Thanh toán"/>
 </asp:Content>
 

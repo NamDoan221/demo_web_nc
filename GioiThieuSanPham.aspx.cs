@@ -66,10 +66,9 @@ public partial class GioiThieuSanPham : System.Web.UI.Page
             lblketqua.Text = "Không tìm thấy sản phẩm";
         }
     }
-    protected void ImageButtonTim_Click(object sender, ImageClickEventArgs e)
+
+    protected void ImageButtonTim_Click(object sender, EventArgs e)
     {
         Timsanpham(textSearch.Text);
-        // textSearch là ID TextBox dùng để nhập nội dung cần tìm
-        //commandSearch là ID của nút lệnh Tìm kiếm
     }
 }

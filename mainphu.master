@@ -32,7 +32,7 @@
 </head>
 <body style="background: #fff;">
     <form id="form1" runat="server">
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a class="navbar-brand" href="#"><img src="https://cdn.jiohealth.com/pharmacy/product/asset/images/navJioLogo@3x.png" alt="Alternate Text" width="70px" /></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
   </div>
 </nav>
  
-  <div class="w-75 mx-auto mt-5"">
+  <div class="w-75 mx-auto" style="margin-top:125px">
      <div class="w-100">
         	<div class="bentrai">
         	    <div class="menudoc">
@@ -85,7 +85,7 @@
            	  		<div class="thanhmenu" style="background: orangered;">
                     	<h4>TOP 10 SẢN PHẨM</h4>
                     </div>
-                    <div class="tintuc">
+                    <div class="tintuc bg-light">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding:5px;">
                             <tr>
                                 <td style="width: 207px">
@@ -98,11 +98,11 @@
                     </div>
           
             </div>
-            <div class="giua">
+            <div class="giua" style="width: 800px !important">
                 <div class="product">
                    
                 </div>
-                <div class="sanpham">
+                <div class="sanpham ml-4 w-100">
                     <asp:Label ID="lblchao" runat="server"></asp:Label>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
@@ -112,7 +112,7 @@
                 <div class="thanhmenu" style="background: orangered;">
                     <h4>MUA HÀNG ONLINE</h4>
                 </div>
-                <div class="muahanggoingay">
+                <div class="muahanggoingay bg-light">
                     <h4><b>Mua hàng gọi ngay:</b></h4>
                     <p style="text-indent:30px; color:orangered; font-weight:bold;">Holine: 000.11.111.111</p>
                     <hr/>
@@ -120,11 +120,11 @@
                     <ul><li class="text-center"><a href="#" style="color:orangered; text-decoration:none;">Hướng dẫn mua hàng</a></li></ul>
                 </div>
                 
-               <div class="menutintuc">
+               <div class="menutintuc" style="width:204px">
                     <div class="thanhmenu" style="background: orangered;">
                         <h4>SỐ LƯỢNG TRUY CẬP</h4>
                     </div>
-                    <div style="border:1px solid #ccc;width:204px">
+                    <div style="width:204px" class="bg-light">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
                             <tr>
                                 <td style="height: 16px; padding-top: 10px;" align="center" colspan="2">
@@ -148,35 +148,32 @@
         </div>
     
    
-  </div>
-  </div>
-  <!--/columns --><div class="clr"></div>
-</div>
-<!--/page --><div class="footer2">
-    <div class="footer2_resize">
+  <div class="clr"></div>
+<div class="bg-light">
+    <div class="footer2_resize d-flex flex-row py-4" style="font-size:14px">
       <div class="col col2">
-        <h2>News</h2>
+        <h2 class="text-dark">News</h2>
         <ul>
-          <li><a href="#">Sức khỏe và cuộc sống?</a><br />đăng ngày 20/11/2020</li>
-          <li><a href="#">Bắt đầu luyện tập để có sức khỏe tốt</a><br />đăng ngày 20/11/2020</li>
-          <li><a href="#">Cố gắng?</a><br />đăng ngày 24/12/2020</li>
+          <li class="text-dark"><a href="#" class="text-dark">Sức khỏe và cuộc sống?</a><br />đăng ngày 20/11/2020</li>
+          <li class="text-dark"><a href="#" class="text-dark">Bắt đầu luyện tập để có sức khỏe tốt</a><br />đăng ngày 20/11/2020</li>
+          <li class="text-dark"><a href="#" class="text-dark">Cố gắng?</a><br />đăng ngày 24/12/2020</li>
         </ul>
       </div>
       <div class="col col4">
-        <h2>Contact</h2>
-        <p><span>Địa chỉ:</span> Trường ĐH Điện Lực</p>
-        <p><span>Điện thoại:</span> +84-123-456-789</p>
-        <p><span>FAX:</span> +abc-1234</p>
-        <p><span>E-mail:</span> <a href="">supportteam@gmail.com</a></p>
+        <h2 class="text-dark">Contact</h2>
+        <p class="p-0 text-dark"><span class="text-dark">Địa chỉ:</span> Trường ĐH Điện Lực</p>
+        <p class="p-0 text-dark"><span class="text-dark">Điện thoại:</span> +84-123-456-789</p>
+        <p class="p-0 text-dark"><span class="text-dark">FAX:</span> +abc-1234</p>
+        <p class="p-0 text-dark"><span class="text-dark">E-mail:</span> <a href="" class="text-dark">supportteam@gmail.com</a></p>
       </div>
       <div class="clr"></div>
     </div>
   </div>
 
-<div id="page_bottom">
+<div id="page_bottom" style="background-color:orangered">
   <div id="footer">
-  <div class="text1">&copy; Copyright <a href="https://www.facebook.com/NamDoan22012000">001</a>. Team</div>
-    <div class="text2">Design: (TS) <a href="https://www.facebook.com/NamDoan22012000">NML</a></div>
+    <div class="text1 text-white">&copy; Copyright <a href="https://www.facebook.com/NamDoan22012000" class="text-white">PM5_Team</a></div>
+    <div class="text2 text-white">Design: (TS) <a href="https://www.facebook.com/NamDoan22012000" class="text-white">NML</a></div>
   </div>
   <div class="clr"></div>
   <!--/footer -->

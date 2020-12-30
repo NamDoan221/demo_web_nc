@@ -37,9 +37,9 @@ public partial class DonHangKhach : BasePage
         gridviewOrders.DataSource = laydonhang.Ketqua;
         gridviewOrders.DataBind();
     }
-    protected void ImageButtontrove_Click(object sender, ImageClickEventArgs e)
+
+    protected void ImageButtontrove_Click(object sender, EventArgs e)
     {
         Response.Redirect("GioiThieuSanPham.aspx");
-
     }
 }
