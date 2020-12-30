@@ -13,12 +13,12 @@
                     <td style="width: 350px">
                         <span style="color: #660000">
                         </span>
-                        <asp:Label ID="lblGiaSanpham" runat="server" Text='<%# Eval("GiaSanPham", "{0:0,000,000} VND") %>' ForeColor="#990000"></asp:Label></td>
+                        <asp:Label ID="lblGiaSanpham" runat="server" Text='<%# Eval("GiaSanPham", "{0: ##,###,###} VND") %>' ForeColor="#990000"></asp:Label></td>
                 </tr>
                 <tr>
                     <td style="width: 245px; height: 35px; display: flex; justify-content:center" rowspan="2">
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "GioiThieuSanPham.aspx" %>' CssClass="btn btn-outline-danger" >Trở về</asp:HyperLink>
-                        <asp:HyperLink ID="HyperLink2" runat="server"  CssClass="btn btn-primary" NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ hàng</asp:HyperLink></td>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "GioiThieuSanPham.aspx" %>' CssClass="btn btn-outline-danger" style="text-decoration: none" >Trở về</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink2" runat="server"  CssClass="btn btn-primary" style="text-decoration: none" NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ hàng</asp:HyperLink></td>
                 </tr>
                 <tr>
                 </tr>

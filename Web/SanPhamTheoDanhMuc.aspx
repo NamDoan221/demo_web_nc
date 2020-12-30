@@ -3,7 +3,7 @@
      <asp:DataList ID="dtlSanPhamDM" runat="server" RepeatColumns="3" Width="987px" CaptionAlign="Top" HorizontalAlign="Center">
         <ItemTemplate>
             <asp:Panel ID="Panel1" runat="server" BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px"
-                Width="230px" Height="250px" CssClass="mb-1">
+                Width="230px" Height="250px" CssClass="mb-1" style="box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.2); border-radius: 5px">
             <table cellpadding="0" cellspacing="0" style="width:230px">
                 <tr>
                     <td style="width: 175px; height: 125px; text-align: center;" align="center">
@@ -15,11 +15,11 @@
                 </tr>
                 <tr>
                     <td style="width: 175px" align="center">
-                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("GiaSanPham", "{0:##,###,###} VND") %>' ForeColor="#330000"></asp:Label></td>
+                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("GiaSanPham", "{0:##,###,###} VND") %>' ForeColor="orangered"></asp:Label></td>
                 </tr>
                 <tr>
-                    <td style="width: auto; text-align: center;" align="center">
-                        <asp:HyperLink ID="HyperLink1" CssClass="btn btn-outline-info mr-1" runat="server" NavigateUrl='<%# Eval("IdSanPham","ChiTietSanPham.aspx?IdSanpham={0}") %>' >Chi tiết</asp:HyperLink><asp:HyperLink ID="HyperLink2" CssClass="btn btn-danger ml-1" runat="server"  NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ</asp:HyperLink></td>
+                    <td style="width: auto; text-align: center; margin-top: 10px; display: block" align="center">
+                        <asp:HyperLink ID="HyperLink1" CssClass="btn btn-outline-info mr-1" style="text-decoration:none" runat="server" NavigateUrl='<%# Eval("IdSanPham","ChiTietSanPham.aspx?IdSanpham={0}") %>' >Chi tiết</asp:HyperLink><asp:HyperLink ID="HyperLink2" CssClass="btn btn-danger ml-1 text-white" style="text-decoration:none" runat="server"  NavigateUrl='<%# Eval("IdSanPham","ThemGioHang.aspx?IDSanpham={0}") %>'>Thêm vào giỏ</asp:HyperLink></td>
                 </tr>
             </table>
             </asp:Panel>

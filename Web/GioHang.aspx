@@ -9,47 +9,47 @@
                 <ItemTemplate>
                     <asp:CheckBox ID="checkboxDelete" runat="server" />
                 </ItemTemplate>
-                <HeaderStyle BackColor="#E0E0E0" BorderColor="#404040" ForeColor="Maroon" HorizontalAlign="Center"
+                <HeaderStyle BackColor="orangered" BorderColor="orangered" ForeColor="white" HorizontalAlign="Center" 
                     VerticalAlign="Middle" BorderStyle="Solid" BorderWidth="1px" />
-                <ItemStyle BackColor="White" BorderColor="#404040" BorderStyle="Solid" BorderWidth="1px" />
+                <ItemStyle BackColor="White" BorderColor="orangered" BorderStyle="Solid" BorderWidth="1px" />
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Sản Phẩm">
                 <ItemTemplate>
                 <%# Eval("TenSanPham") %>
                 </ItemTemplate>
-                <HeaderStyle BackColor="#E0E0E0" BorderColor="#404040" ForeColor="Maroon" HorizontalAlign="Center"
+                <HeaderStyle BackColor="orangered" BorderColor="orangered" ForeColor="white" HorizontalAlign="Center"
                     VerticalAlign="Middle" BorderStyle="Solid" BorderWidth="1px" />
-                <ItemStyle ForeColor="#404040" HorizontalAlign="Center" VerticalAlign="Middle" BorderColor="#404040" BorderStyle="Solid" BorderWidth="1px" />
+                <ItemStyle ForeColor="#404040" HorizontalAlign="Center" VerticalAlign="Middle" BorderColor="orangered" BorderStyle="Solid" BorderWidth="1px" />
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Số lượng">
                 <ItemTemplate>
                     <asp:TextBox ID="textQuantity" runat="server" Text='<%# Eval("SoLuong") %>' Width="93px"></asp:TextBox>
                 </ItemTemplate>
-                <HeaderStyle BackColor="#E0E0E0" BorderColor="#404040" ForeColor="Maroon" HorizontalAlign="Center"
+                <HeaderStyle BackColor="orangered" BorderColor="orangered" ForeColor="white" HorizontalAlign="Center"
                     VerticalAlign="Middle" BorderStyle="Solid" BorderWidth="1px" />
-                <ItemStyle ForeColor="#404040" HorizontalAlign="Center" VerticalAlign="Middle" BorderColor="#404040" BorderStyle="Solid" BorderWidth="1px" />
+                <ItemStyle ForeColor="#404040" HorizontalAlign="Center" VerticalAlign="Middle" BorderColor="orangered" BorderStyle="Solid" BorderWidth="1px" />
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Đơn Gi&#225;">
                 <ItemTemplate>
                 <%# Eval("GiaSanPham")%>
                 </ItemTemplate>
-                <HeaderStyle BackColor="#E0E0E0" BorderColor="#404040" ForeColor="Maroon" HorizontalAlign="Center"
+                <HeaderStyle BackColor="orangered" BorderColor="orangered" ForeColor="white" HorizontalAlign="Center"
                     VerticalAlign="Middle" BorderStyle="Solid" BorderWidth="1px" />
-                <ItemStyle ForeColor="#404040" HorizontalAlign="Right" VerticalAlign="Middle" BorderColor="#404040" BorderStyle="Solid" BorderWidth="1px" />
+                <ItemStyle ForeColor="#404040" HorizontalAlign="Right" VerticalAlign="Middle" CssClass="text-center" BorderColor="orangered" BorderStyle="Solid" BorderWidth="1px" />
             </asp:TemplateField>
             <asp:TemplateField HeaderText="Th&#224;nh Tiền">
                 <ItemTemplate>
                 <%# Eval("ThanhTien","{0:###,###,###} VND")%>
                 </ItemTemplate>
-                <HeaderStyle BackColor="#E0E0E0" BorderColor="#404040" ForeColor="Maroon" HorizontalAlign="Center"
+                <HeaderStyle BackColor="orangered" BorderColor="orangered" ForeColor="white" HorizontalAlign="Center"
                     VerticalAlign="Middle" BorderStyle="Solid" BorderWidth="1px" />
-                <ItemStyle ForeColor="#404040" HorizontalAlign="Right" VerticalAlign="Middle" BorderColor="#404040" BorderStyle="Solid" BorderWidth="1px" />
+                <ItemStyle ForeColor="#404040" HorizontalAlign="Right" VerticalAlign="Middle" BorderColor="orangered" CssClass="text-center" BorderStyle="Solid" BorderWidth="1px" />
             </asp:TemplateField>
         </Columns>
     </asp:GridView>
     <br />
     <asp:Label ID="Label1" runat="server" Text="Tổng tiền:" Font-Bold="True" ForeColor="#330000"></asp:Label>
-    <asp:Label ID="lblTotal" runat="server" ForeColor="#330000"></asp:Label><br />
+    <asp:Label ID="lblTotal" runat="server" ForeColor="orangered"></asp:Label><br />
     <br />
     <asp:ImageButton ID="ImageButtontieptucmuahang" runat="server" ImageUrl="~/images/button_tiepmua.jpg" OnClick="ImageButtontieptucmuahang_Click" />
     <asp:ImageButton ID="ImageButtoncapnhatthaydoi" runat="server" ImageUrl="~/images/button_capnhat.jpg" OnClick="ImageButtoncapnhatthaydoi_Click" />

@@ -7,7 +7,7 @@
     <Columns>
         <asp:TemplateField>
             <ItemTemplate>
-                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl='<%# Eval("IdDanhMucSanPham","../SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham={0}") %>'
+                <asp:HyperLink ID="HyperLink2" runat="server" CssClass="bg-light text-dark" style="background-image: unset; text-decoration: none" NavigateUrl='<%# Eval("IdDanhMucSanPham","../SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham={0}") %>'
                     Text='<%# ""+Eval("TenDanhMucSanPham") %>'></asp:HyperLink>
             </ItemTemplate>
         </asp:TemplateField>

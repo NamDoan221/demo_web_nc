@@ -41,7 +41,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-3">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Trang chủ</a>
+        <a class="nav-link" href="GioiThieuSanPham.aspx">Trang chủ</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Cửa hàng</a>
@@ -71,7 +71,7 @@
      <div class="w-100">
         	<div class="bentrai">
         	    <div class="menudoc">
-           	  		<div class="thanhmenu">
+           	  		<div class="thanhmenu" style="background: orangered;">
                     	<h4>DANH MỤC SẢN PHẨM</h4>
                     </div>
                     <div class="danhmucsanpham">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                   <div class="menudoc">
-           	  		<div class="thanhmenu">
+           	  		<div class="thanhmenu" style="background: orangered;">
                     	<h4>
                             BÁC SỸ ĐANG TRỰC</h4>
                     </div>
@@ -103,31 +103,31 @@
                    
                 </div>
                 <div class="sanpham">
-                    <asp:Label ID="lblchao" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lblchao" runat="server"></asp:Label>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </div>
             </div>
             <div class="benphai">
-                <div class="thanhmenu">
-                    <h4>BÁN HÀNG QUA PHONE</h4>
+                <div class="thanhmenu" style="background: orangered;">
+                    <h4>MUA HÀNG ONLINE</h4>
                 </div>
                 <div class="muahanggoingay">
                     <h4><b>Mua hàng gọi ngay:</b></h4>
-                    <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:000.11.111.111</p>
+                    <p style="text-indent:30px; color:orangered; font-weight:bold;">Holine: 000.11.111.111</p>
                     <hr/>
                     <p style="text-align:center; font-weight:bold; font-size:14px;">Giao hàng tận nơi</p>
-                    <ul><li class="text-center"><a href="#">Hướng dẫn mua hàng</a></li></ul>
+                    <ul><li class="text-center"><a href="#" style="color:orangered; text-decoration:none;">Hướng dẫn mua hàng</a></li></ul>
                 </div>
                 
                <div class="menutintuc">
-                    <div class="thanhmenu">
+                    <div class="thanhmenu" style="background: orangered;">
                         <h4>SỐ LƯỢNG TRUY CẬP</h4>
                     </div>
                     <div style="border:1px solid #ccc;width:204px">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
                             <tr>
-                                <td style="height: 16px; font-weight: bold; padding-top: 10px;" align="center" colspan="2">
+                                <td style="height: 16px; padding-top: 10px;" align="center" colspan="2">
                                     <uc1:ThongKeTruyCap ID="ThongKeTruyCap" runat="server" />
                                    
                                    </td>

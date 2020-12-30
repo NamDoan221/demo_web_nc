@@ -181,7 +181,10 @@ select { padding:1px;}
 .footer2 .col1 { width:190px; padding:32px 20px 32px 0;}
 .footer2 .col2 { width:190px; padding:32px 20px 32px;}
 .footer2 .col3 { width:130px; padding:32px 20px 32px;}
-.footer2 .col4 { width:270px; padding:32px 0 32px 20px;}
+.footer2 .col4 { width:270px; padding:32px 0 32px 20px;
+    top: 2px;
+    left: 299px;
+}
 .footer2 .col4 span { float:left; width:72px;}
 .footer2 .col ul { margin:0; padding:0; list-style:none;}
 .footer2 .col ul li { margin:0; padding:2px 0 2px 12px; color:#32d9ed;}

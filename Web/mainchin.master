@@ -30,7 +30,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
 </head>
-<body style="background: #fff;">>
+<body style="background: #fff;">
     <form id="form1" runat="server">
   
 
@@ -43,20 +43,21 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto mr-3">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Trang chủ</a>
+        <a class="nav-link" href="GioiThieuSanPham.aspx">Trang chủ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cửa hàng</a>
+        <a class="nav-link" href="GioiThieuSanPham.aspx">Cửa hàng</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Sản phẩm
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Thuốc đặc trị</a>
-          <a class="dropdown-item" href="#">Thuốc chỉ định</a>
-          <a class="dropdown-item" href="#">Thực phẩm chức năng</a>
-            <a class="dropdown-item" href="#">Dụng cụ y tế</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=1">Thuốc đặc trị</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=2">Thuốc chỉ định</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=3">Thực phẩm chức năng</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=4">Dụng cụ y tế</a>
+          <a class="dropdown-item" href="SanPhamTheoDanhMuc.aspx?IdDanhMucSanPham=5">Mẹ và bé</a>
         </div>
       </li>
       <li class="nav-item">
@@ -100,7 +101,7 @@
      <div class="w-100">
         	<div class="bentrai">
         	    <div class="menudoc">
-           	  		<div class="thanhmenu">
+           	  		<div class="thanhmenu" style="background: orangered;">
                     	<h4>DANH MỤC SẢN PHẨM</h4>
                     </div>
                     <div class="danhmucsanpham">
@@ -110,9 +111,8 @@
                     </div>
                 </div>
                   <div class="menudoc">
-           	  		<div class="thanhmenu">
-                    	<h4>
-                            BÁC SỸ ĐANG TRỰC</h4>
+           	  		<div class="thanhmenu" style="background: orangered;">
+                    	<h4>TOP 10 SẢN PHẨM</h4>
                     </div>
                     <div class="tintuc">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; padding:5px;">
@@ -137,25 +137,25 @@
                 </div>
             </div>
             <div class="benphai">
-                <div class="thanhmenu">
-                    <h4>BÁN HÀNG QUA PHONE</h4>
+                <div class="thanhmenu" style="background: orangered;">
+                    <h4>MUA HÀNG ONLINE</h4>
                 </div>
                 <div class="muahanggoingay">
                     <h4><b>Mua hàng gọi ngay:</b></h4>
-                    <p style="text-indent:30px; color:Red; font-weight:bold;">Holine:000.11.111.111</p>
+                    <p style="text-indent:30px; color:orangered; font-weight:bold;">Holine: 000.11.111.111</p>
                     <hr/>
                     <p style="text-align:center; font-weight:bold; font-size:14px;">Giao hàng tận nơi</p>
-                    <ul><li class="text-center"><a href="#">Hướng dẫn mua hàng</a></li></ul>
+                    <ul><li class="text-center"><a href="#" style="color:orangered; text-decoration:none;">Hướng dẫn mua hàng</a></li></ul>
                 </div>
                 
                <div class="menutintuc">
-                    <div class="thanhmenu">
+                    <div class="thanhmenu" style="background: orangered;">
                         <h4>SỐ LƯỢNG TRUY CẬP</h4>
                     </div>
                     <div style="border:1px solid #ccc;width:204px">
                         <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
                             <tr>
-                                <td style="height: 16px; font-weight: bold; padding-top: 10px;" align="center" colspan="2">
+                                <td style="height: 16px; padding-top: 10px;" align="center" colspan="2">
                                     <uc1:ThongKeTruyCap ID="ThongKeTruyCap" runat="server" />
                                    
                                    </td>
