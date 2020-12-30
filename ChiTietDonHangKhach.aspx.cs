@@ -54,9 +54,8 @@ public partial class ChiTietDonHangKhach :BasePage
         donhang.Idgiaodich = Request.QueryString["Idgiaodich"];
     }
     //---------Sự kiện nút trở về-------------------------------------------------
-    protected void ImageButtonTroVe_Click(object sender, ImageClickEventArgs e)
+    protected void ImageButtonTroVe_Click(object sender, EventArgs e)
     {
         Response.Redirect("DonHangKhach.aspx");
-
     }
 }

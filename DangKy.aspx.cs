@@ -18,7 +18,7 @@ public partial class DangKy : BasePage
         textHoTen.Focus();
     }
 
-    protected void btnDangKy_Click(object sender, ImageClickEventArgs e)
+    protected void btnDangKy_Click(object sender, EventArgs e)
     {
         NguoiDung nguoidung = new NguoiDung();
         XuLyThemNguoiDung themnguoidung = new XuLyThemNguoiDung();

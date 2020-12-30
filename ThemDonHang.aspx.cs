@@ -69,13 +69,12 @@ public partial class ThemDonHang : BasePage
         Response.Redirect("GioiThieuSanPham.aspx");
     }
     //---------------Sự kiện cho nút tiếp tục mua hàng----------------------------------
-    protected void ImageButtonTieptucmuahang_Click(object sender, ImageClickEventArgs e)
+    protected void ImageButtonTieptucmuahang_Click(object sender, EventArgs e)
     {
         Response.Redirect("GioiThieuSanPham.aspx");
     }
     //---------------Sự kiện cho nút tạo và gửi đơn hàng-----------------
-
-    protected void ImageButtonTaovaguidonhang_Click(object sender, ImageClickEventArgs e)
+    protected void ImageButtonTaovaguidonhang_Click(object sender, EventArgs e)
     {
         MOONLY.Common.DonHang donhang = new MOONLY.Common.DonHang();
         SanPham[] prods = new SanPham[gridgiohang.Rows.Count];

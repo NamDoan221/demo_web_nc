@@ -17,7 +17,8 @@ public partial class DangNhap : BasePage
     {
         textUsername.Focus();
     }
-    protected void btnDangNhap_Click(object sender, ImageClickEventArgs e)
+
+    protected void btnDangNhap_Click(object sender, EventArgs e)
     {
         if (IsValid)
         {
