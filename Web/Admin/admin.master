@@ -9,7 +9,6 @@
      <style type="text/css">
      body 
 {
-	background-image:url(images/thietke.jpg);
 	background-repeat:repeat-x;
 	background-position:left top;
 	margin:0 auto;
@@ -57,95 +56,64 @@ body a:hover
 	margin-top:15px;
 }
      </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>		<!-- jQuery -->
+<script type="text/javascript" src="js/coin-slider.min.js"></script>		<!-- slider -->
+<script type="text/javascript" src="js/cufon-yui.js"></script>				<!-- cufon -->
+<script type="text/javascript" src="js/cufon-chunkfive.js"></script>			<!-- cufon font -->
+<script type="text/javascript" src="js/menusm.js"></script>					<!-- menu -->
+<script type="text/javascript" src="js/script.js"></script>		
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
     <form id="form1" runat="server">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+       <div>
+          <a class="navbar-brand" href="#">Quản trị</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+       </div>
+
+      <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <asp:HyperLink CssClass="nav-link" ID="HyperLink7" runat="server" NavigateUrl="~/GioiThieuSanPham.aspx">Trang chủ</asp:HyperLink>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sản phẩm
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <asp:HyperLink CssClass="dropdown-item" ID="HyperLink2" runat="server" NavigateUrl="~/Admin/SanPham.aspx">Ds sản phẩm</asp:HyperLink></td>
+                    <asp:HyperLink CssClass="dropdown-item" ID="HyperLink1" runat="server" NavigateUrl="~/Admin/ThemSanPham.aspx">Đăng sản phẩm</asp:HyperLink>
+                </div>
+              </li>
+             <li class="nav-item">
+                 <asp:HyperLink CssClass="nav-link" ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">Thống kê đơn hàng</asp:HyperLink>
+             </li>
+             <li class="nav-item">
+                 <asp:HyperLink CssClass="nav-link" ID="HyperLink6" runat="server" NavigateUrl="~/Admin/quanlytintuc.aspx">Đăng tin</asp:HyperLink>
+             </li>
+             <li class="nav-item">
+                <asp:LinkButton CssClass="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Đăng xuất</asp:LinkButton>
+             </li>
+        </ul>
+      </div>
+    </nav>
     <div>
       <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 1000px">
-            <tr>
-                <td colspan="2">
-                    <div class="banneradmin">
-                        <div class="logo">
-                        </div>
-                        <div class="admin">
-                        </div>
-                    </div>
-                </td>
-            </tr>
+          
           <tr>
               <td colspan="2" style="padding-left: 20px; font-weight: bold; color: #ff0000">
                   Xin chào Admin:
-                  <asp:HyperLink ID="HyperLink5" runat="server">HyperLink</asp:HyperLink>
-                  </td>
+                 <asp:HyperLink ID="HyperLink5" runat="server">HyperLink</asp:HyperLink>
+              </td>
           </tr>
             <tr>
-                <td style="width: 179px; padding-top: 10px; background-color: #ffffff; height: 277px;" valign="top">
-                    <table border="0" cellpadding="0" cellspacing="0" style="width: 179px; background-color: #ffffff;">
-                        <tr>
-                            <td colspan="2" style="padding-bottom: 2px">
-                                <asp:Image ID="Image6" runat="server" ImageUrl="~/Images/top.jpg" Width="179px" /></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 22px">
-                                <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/box-bullet1.gif" /></td>
-                            <td style="padding-left: 10px; font-weight: bold; color: #ffffff; background-color: #000000; width: 157px;">
-                                MENU</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 17px; padding-top: 3px;">
-                                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin/ThemSanPham.aspx">ĐĂNG SẢN PHẨM</asp:HyperLink></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 17px; padding-top: 3px;">
-                                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin/SanPham.aspx">SẢN PHẨM</asp:HyperLink></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 17px; padding-top: 3px;">
-                                <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">THỐNG KÊ ĐƠN HÀNG</asp:HyperLink></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 17px; padding-top: 3px;">
-                                <asp:Image ID="Image7" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="padding-top: 3px; font-weight: bold;">
-                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Admin/quanlytintuc.aspx">ĐĂNG TIN</asp:HyperLink></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 17px; padding-top: 3px">
-                                <asp:Image ID="Image10" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="font-weight: bold; padding-top: 3px">
-                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/GioiThieuSanPham.aspx">TRANG CHỦ</asp:HyperLink></td>
-                        </tr>
-                         <tr>
-                            <td style="width: 17px; padding-top: 3px">
-                                <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/arr.gif" /></td>
-                            <td style="font-weight: bold; padding-top: 3px">
-                                &nbsp;<asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">ĐĂNG XUẤT</asp:LinkButton></td>
-                         </tr>
-                        <tr>
-                            <td colspan="2">
-                                <asp:Image ID="Image8" runat="server" ImageUrl="~/Images/bottom.jpg" /></td>
-                        </tr>
-                        
-                    </table>
-                </td>
                 <td style="padding-top: 10px; background-color: #ffffff; width: 821px; height: 277px;">
-                 <table border="0" cellpadding="0" cellspacing="0" style="width: 821px">
-                        <tr>
-                            <td style="height: 15px">
-                                <asp:Image ID="Image9" runat="server" ImageUrl="~/Images/topphai.jpg" /></td>
-                        </tr>
-                        <tr>
-                            <td style="font-weight: bold; background-image: url(Images/bg.png); height: 28px">
-                                <p style="text-indent:30px; margin:0; padding:0">TRANG QUẢN TRỊ ADMIN</p>
-                            </td>
-                        </tr>
-                    </table>
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>
