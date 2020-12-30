@@ -1,9 +1,0 @@
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.dll
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Common.pdb
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.dll
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\bin\Debug\MOONLY.Operational.pdb
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csprojAssemblyReference.cache
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CoreCompileInputs.cache
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.csproj.CopyComplete
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.dll
-D:\D13CNPM5\Web_NC\baocao\MOONLY\MOONLY.Common\obj\Debug\MOONLY.Common.pdb
