@@ -74,7 +74,7 @@ public partial class Admin_ChiTietDonHang : System.Web.UI.Page
         dropdownlistOrderStatus.DataBind();
     }
     //---------Xự kiện nút trở về--------------------
-    protected void btnTroVe_Click(object sender, ImageClickEventArgs e)
+    protected void btnTroVe_Click(object sender, EventArgs e)
     {
         Response.Redirect("ThongKeDonHang.aspx");
     }
@@ -99,7 +99,7 @@ public partial class Admin_ChiTietDonHang : System.Web.UI.Page
     }
     // --Xử lý nút cập nhật để cập nhật thay đổi đơn hàng sau khi xử lý-------
 
-    protected void btnCapNhat_Click(object sender, ImageClickEventArgs e)
+    protected void btnCapNhat_Click(object sender, EventArgs e)
     {
         DonHang donhang = new DonHang();
         XuLyCapNhatDonHang xulycapnhatdonhang = new XuLyCapNhatDonHang();

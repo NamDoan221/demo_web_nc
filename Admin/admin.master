@@ -15,6 +15,7 @@
 	padding:0;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:13px;
+    background:#f5f6fa
 }
 body a
 {
@@ -24,12 +25,11 @@ body a
 body a:hover
 {
 	color:Red;
-	text-decoration:underline;
+	
 }
 	
 .logo
 {
-
 	width:235px;
 	height:120px;
 	margin-left:70px;
@@ -67,11 +67,11 @@ body a:hover
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+<body style="background:#f5f6fa">
+    <form id="form1" runat="server" style="background:#f5f6fa;height:100vh" >
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light d-flex justify-content-between" style="box-shadow: 0 10px 30px 0 rgba(47,60,74,.08);">
        <div>
-          <a class="navbar-brand" href="#">Quản trị</a>
+           <a class="navbar-brand" href="#"><img src="https://cdn.jiohealth.com/pharmacy/product/asset/images/navJioLogo@3x.png" alt="Alternate Text" width="60px" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -95,36 +95,18 @@ body a:hover
                  <asp:HyperLink CssClass="nav-link" ID="HyperLink4" runat="server" NavigateUrl="~/Admin/ThongKeDonHang.aspx">Thống kê đơn hàng</asp:HyperLink>
              </li>
              <li class="nav-item">
-                 <asp:HyperLink CssClass="nav-link" ID="HyperLink6" runat="server" NavigateUrl="~/Admin/quanlytintuc.aspx">Đăng tin</asp:HyperLink>
-             </li>
-             <li class="nav-item">
                 <asp:LinkButton CssClass="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Đăng xuất</asp:LinkButton>
              </li>
         </ul>
       </div>
     </nav>
-    <div>
-      <table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 1000px">
-          <tr>
-              <td colspan="2" style="padding-left: 20px; font-weight: bold; color: #ff0000">
-                  Xin chào Admin:
-                 <asp:HyperLink ID="HyperLink5" runat="server">HyperLink</asp:HyperLink>
-              </td>
-          </tr>
-            <tr>
-                <td style="padding-top: 10px; background-color: #ffffff; width: 821px; height: 277px;">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="border:1px solid #ccc; height: 34px;">
-                    <p style="text-align:center; margin:0; padding:0; color:rgb(255,255,153)">CopyRight&copy <b>MOONLY CENTER | MOONLY.com |</b></p>
-                    <p style="text-align:center; margin:0; padding:0; color:rgb(255,255,153)"> <b> | CĐ CNTT HỮU NGHỊ VIỆT - HÀN |</b></p>
-                </td>
-            </tr>
-        </table>
-    </div>
+    <div style="padding-top:5rem">
+        <div style="background-color: #f5f6fa; width: 100%; height: 277px;" class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+       </div>
     </form>
 </body>
 </html>
+ 
