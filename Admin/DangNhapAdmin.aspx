@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" CodeFile="DangNhapAdmin.aspx.cs" Inherits="Admin_DangNhapAdmin1" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" CodeFile="DangNhapAdmin.aspx.cs" Inherits="Admin_DangNhapAdmin1" Title="Đăng nhập" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div style="height:86vh;display:flex;align-items:center;background:#f5f6fa;justify-content:center">
         <div style="width:5 0%;background:#fff;padding:3rem;border-radius:7px;box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);">

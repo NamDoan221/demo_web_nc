@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true"
-    CodeFile="ChiTietDonHang.aspx.cs" Inherits="Admin_ChiTietDonHang" Title="Untitled Page" %>
+    CodeFile="ChiTietDonHang.aspx.cs" Inherits="Admin_ChiTietDonHang" Title="Chi tiết đơn hàng" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="form-group">

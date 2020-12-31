@@ -94,6 +94,7 @@ public partial class GioHang : System.Web.UI.Page
 
     protected void ImageButtoncapnhatthaydoi_Click(object sender, EventArgs e)
     {
+        System.Diagnostics.Debug.WriteLine(sender);
         foreach (GridViewRow row in gridgiohang.Rows)
         {
             if (row.RowType == DataControlRowType.DataRow)

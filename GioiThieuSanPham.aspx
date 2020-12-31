@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/mainchin.master" AutoEventWireup="true" CodeFile="GioiThieuSanPham.aspx.cs" Inherits="GioiThieuSanPham" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/mainchin.master" AutoEventWireup="true" CodeFile="GioiThieuSanPham.aspx.cs" Inherits="GioiThieuSanPham" Title="Sản phẩm" %>
 
 <%@ Register Assembly="CollectionPager" Namespace="SiteUtils" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/mainphu.master" AutoEventWireup="true" CodeFile="ChiTietDonHangKhach.aspx.cs" Inherits="ChiTietDonHangKhach" Title="Untitled Page" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/mainphu.master" AutoEventWireup="true" CodeFile="ChiTietDonHangKhach.aspx.cs" Inherits="ChiTietDonHangKhach"  Title="Chi tiết đơn hàng" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <span style="color: #cc0000"><strong style="font-size: 15pt"><span style="color: #cc0000">
      <br />

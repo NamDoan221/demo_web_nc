@@ -1,6 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" CodeFile="SanPham.aspx.cs" Inherits="Admin_SanPham" Title="Sản phẩm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+     <asp:TextBox ID="textSearch" runat="server" CssClass="form-control mr-sm-2 w-75 float-left ml-5"></asp:TextBox>
+    <asp:Button ID="ImageButtonTim" runat="server" OnClick="ImageButtonTim_Click" CssClass="btn-danger p-1 rounded" Text="Tìm kiếm"/>
+   
     <div style="width: 100%;background:#f5f6fa" class="container">
+         <asp:Label ID="lblketqua" runat="server" ></asp:Label>
         <asp:DataList ID="dtlSanpham" runat="server"  RepeatColumns="4" Width="100%" CellPadding="0">
         <ItemTemplate>
             <asp:Panel ID="Panel1" runat="server"
@@ -15,7 +19,7 @@
                     <asp:Label CssClass="d-flex text-truncate text-center justify-content-center" ID="Label1" runat="server" Text='<%# Eval("GiaSanPham","{0:###,###,###} VND") %>'></asp:Label>
                 </div>
                 <div class="mb-3 p-2">
-                    <asp:HyperLink CssClass="btn btn-outline-danger" ID="HyperLink2" runat="server" NavigateUrl='<%# Eval("IdSanPham","SuaSanPham.aspx?IdSanPham={0}") %>'>Xoá sản phẩm</asp:HyperLink>
+                    <asp:HyperLink CssClass="btn btn-outline-danger" ID="HyperLink2" runat="server" NavigateUrl='<%# Eval("IdSanPham","deleteProduct.aspx?IdSanPham={0}") %>'>Xoá sản phẩm</asp:HyperLink>
                     <asp:HyperLink CssClass="btn btn-info" ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("IdSanPham","SuaSanPham.aspx?IdSanPham={0}") %>'>Chi tiết</asp:HyperLink>
                 </div>
             </asp:Panel>
